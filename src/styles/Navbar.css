@@ -1,0 +1,44 @@
+.navbar {
+  background-image: linear-gradient(to bottom, #ff9900, #ffffff, #1eff00); /* Indian flag colors: orange, white, green */
+  color: blue;
+  padding: 1rem 0;
+  border-radius: 400000px;
+}
+
+.navbar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.navbar-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: blue;
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  font-weight: 500;
+}
+
+.navbar-item {
+  padding: 0;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: blue;
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out; /* Combined transitions */
+}
+
+.navbar-link:hover {
+  color: #f20808;
+  transform: scale(1.2);
+}

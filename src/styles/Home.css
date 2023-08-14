@@ -1,0 +1,102 @@
+/* General styling */
+.home {
+  padding: 1rem;
+}
+
+/* Hero section */
+.hero {
+  background-image: url('https://res.cloudinary.com/djfairmyz/image/upload/v1691923008/Firefly_-Create_a_captivating_and_inspiring_background_image_that_celebrates_the_spirit_of_Indian_In_1_n4ixqg.jpg');
+  background-color: rgba(0, 0, 0, 0.473);
+  background-size: cover;
+  background-position: center;
+  color: #fbff00;
+  text-align: center;
+  padding: 6rem 0;
+  margin-top: 20px;
+  border-radius: 25px;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+
+/* About section */
+.about1-section {
+  margin-top: 4rem;
+  padding: 2rem ;
+  text-align: left;
+  background-image: repeating-linear-gradient(to right, #ff8800fd, #ffffff);
+  border-radius: 20px;
+}
+
+.about1-section h2 {
+  font-size: 2rem;
+}
+
+.about1-section p {
+  font-size: 18px;
+}
+
+.about2-section p {
+  font-size: 18px;
+}
+
+.about3-section p {
+  font-size: 18px;
+}
+
+.about2-section {
+  margin-top: 4rem;
+  padding: 2rem ;
+  text-align: left;
+  background-image: repeating-linear-gradient(to left, #ffffff, #ffffff, rgba(57, 57, 211, 0.313), #ffffff, #ffffff);
+  border-radius: 20px;
+}
+
+.about2-section h2 {
+  font-size: 2rem;
+}
+
+.about3-section {
+  margin-top: 4rem;
+  padding: 2rem ;
+  text-align: left;
+  background-image: repeating-linear-gradient(to left, rgb(14, 200, 14), #ffffff);
+  border-radius: 20px;
+}
+
+.about3-section h2 {
+  font-size: 2rem;
+}
+
+/* Significance section */
+.significance-section {
+  margin-top: 4rem;
+  padding: 2rem 0;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add box shadow */
+  border-radius: 30px;
+}
+
+.significance-section h2 {
+  font-size: 2rem;
+}
+
+.significance-section p {
+  font-size: 16px;
+  padding: 1rem;
+  
+}
+
+.custom-text {
+  font-size: 22px;
+  font-weight: bold;
+  color: #000000; /* You can set the desired color here */
+}
